@@ -1,0 +1,45 @@
+.header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    box-shadow:  0 2px 4px -1px rgba(0,0,0,0.06), 
+                 0 4px 5px 0 rgba(0,0,0,0.06), 
+                 0 1px 10px 0 rgba(0,0,0,0.08);
+    width: 100vw;
+    padding: 30px 0;
+    transition: ease-in-out 0.5s;
+}
+
+.header-fixed {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.header-fixed_logo {
+    width: 100px;
+    height: 100px;
+}
+
+.header-nav_list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 800px;
+}
+
+.header-nav_list-item {
+    font-size: 22px;
+    font-weight: 700;
+    letter-spacing: 5px;
+    padding: 10px;
+    color: black;
+    text-transform: uppercase;
+    transition: ease-in-out 0.2;
+} 
+
+.header-nav_list-item:hover {
+    color: gray;
+    transition: ease-in-out 0.2;
+}

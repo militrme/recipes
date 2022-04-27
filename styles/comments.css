@@ -1,0 +1,19 @@
+.comments {
+    margin: 0 auto 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: left;
+    text-align: left;
+}
+
+.comments-name {
+    text-align: left;
+    margin: 20px;
+}
+
+.comments-text {
+    text-align: left;
+    padding: 30px;
+    border: 1px solid black;
+}

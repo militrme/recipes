@@ -1,0 +1,12 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.main-header {
+    margin: 0 auto 50px;
+    font-size: 60px;
+}

@@ -1,0 +1,34 @@
+.footer-nav_list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.footer-nav_list-item {
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 3px;
+    padding: 10px 10px 0 0;
+    color: black;
+    text-transform: uppercase;
+    transition: ease-in-out 0.2;
+}
+
+.footer-nav_list-item::after {
+    content: "|";
+}
+
+.footer-nav_list-item:last-child:after {
+    content: none;
+}
+
+.footer-nav_list-item:hover {
+    color: gray;
+    transition: ease-in-out 0.2;
+}
+
+.header-nav {
+    margin: 0 auto;
+}
