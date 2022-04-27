@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Кулинарная книга</title>
+    <link rel="preload" href="fonts/roboto-400.woff2" as="font"> <!-- предварительная загрузка шрифта -->
+    <link rel="preload" href="fonts/roboto-500.woff2" as="font">
+    <link rel="preload" href="fonts/roboto-700.woff2" as="font">
+    <link type="image/x-icon" href="img/book.png" rel="shortcut icon">
+    <link type="Image/x-icon" href="img/book.png" rel="icon">
+    <link rel="preload" href="https://code.jquery.com/jquery-3.5.1.min.js" as="script">
+    <link href="styles/normalize.css" rel="stylesheet" type="text/css">
+    <link href="styles/styles.css" rel="stylesheet" type="text/css">
+    <link href="styles/fonts.css" rel="stylesheet" type="text/css">
+    <link href="styles/header.css" rel="stylesheet" type="text/css">
+    <link href="styles/main.css" rel="stylesheet" type="text/css">
+    <link href="styles/slider.css" rel="stylesheet" type="text/css">
+    <link href="styles/slick-theme.css" rel="stylesheet" type="text/css">
+    <link href="styles/slick.css" rel="stylesheet" type="text/css">
+    <link href="styles/footer.css" rel="stylesheet" type="text/css">
+    <link href="styles/food-list.css" rel="stylesheet" type="text/css">
+    <link href="styles/food.css" rel="stylesheet" type="text/css">
+    <link href="styles/form.css" rel="stylesheet" type="text/css">
+    <link href="styles/comments.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <header class="header">
+        <div class="header-fixed">
+            <a href="index.html"><img class="header-fixed_logo" alt="Логотип" src="img/book.png"></a>
+            <nav class="header-nav">
+                <ul class="header-nav_list">
+                    <li class="header-nav_list-item">
+                        <a href="#about">О нас</a>
+                    </li>
+                    <li class="header-nav_list-item">
+                        <a href="#">Предложения</a>
+                    </li>
+                    <li class="header-nav_list-item">
+                        <a href="#">Контакты</a>
+                    </li>
+                </ul>
+            </nav>
+            <button class="login" type="button">Вход / Регистрация</button>
+        </div>
+    </header>
+    <main>
+        <section class="main_food">
+            <h1 class="main-header">Завтраки</h1>
+            <ul class="food-list">
+                <li class="food-list_item">
+                    <a href="#simple">Простой завтрак</a>
+                </li>
+                <li class="food-list_item">
+                    <a href="#average">Завтрак средней сложности</a>
+                </li>
+                <li class="food-list_item">
+                    <a href="#hard">Сложный завтрак</a>
+                </li>
+            </ul>
+        </section>
+        <section class="food">
+            <h2 class="food-headline" id="simple">Простой завтрак</h2>
+            <p class="food-desc">Сытное и вкусное блюдо "с изюминкой", которое можно приготовить всего из 3 ингредиентов, - аппетитные, нежные и румяные
+                яичные конвертики с ветчиной и сыром. Отличная альтернатива привычной яичнице для завтрака или перекус на скорую руку. 
+                Попробуйте!</p>
+            <span class="food-need">Какие продукты понадобятся: </span>
+            <ul class="food_list">
+                <li>Яйца - <span class="food_list-item-amount">4 штуки</span></li>
+                <li>Ветчина - <span class="food_list-item-amount">130 г</span></li>
+                <li>Сыр твёрдый - <span class="food_list-item-amount">100 г</span></li>
+                <li>Масло растительное - <span class="food_list-item-amount">1-2 ч. ложки</span></li>
+            </ul>
+            <span class="food-how">Как приготовить: </span>
+            <ul class="food_list">
+                <li>Подготовьте продукты по списку.</li>
+                <li>Натрите ветчину и сыр на мелкой тёрке.
+                    В отдельную ёмкость разбейте яйца и слегка взбейте вилкой, чтобы белки и желтки смешались. 
+                    Для удобства дальнейшего приготовления можно взбивать и обжаривать по одному яйцу за раз, но тогда блинчики 
+                    получатся чуть более толстыми.</li>
+                <li>Разогрейте сковороду на среднем огне и смажьте растительным маслом. Влейте порцию взбитых яиц и распределите 
+                    по сковороде, чтобы получился тонкий яичный блинчик. Жарьте блинчик примерно 1-2 минуты, пока яичная масса не 
+                    "схватится".</li>
+                <li>Затем переверните яичный блинчик на другую сторону. В центр блинчика выложите немного ветчины и натёртого сыра. 
+                    У меня получается 5 тонких или 4 толстых блинчика, поэтому начинку я делю соответственно на 4-5 частей и 
+                    распределяю между блинчиками.</li>
+                <li>Сверните яичный блинчик с начинкой конвертиком. Для этого сперва подверните свободные края блинчика слева и 
+                    справа от начинки и сложите по направлению к центру. Прижмите края блинчика лопаткой на 10-15 секунд, 
+                    чтобы зафиксировать их в таком положении.</li>
+                <li>Затем таким же образом подверните верхний и нижний края блинчика. Слегка прижимая лопаткой, обжарьте получившийся 
+                    конвертик ещё 20-30 секунд.</li>
+                <li>
+                    Затем переверните яичный конвертик и обжарьте ещё 20-30 секунд с другой стороны. Повторите процесс с оставшейся 
+                    яичной массой и начинкой.</li>
+                <li>Аппетитные яичные конвертики с сыром и ветчиной готовы. При желании срежьте выступающие края конвертиков, 
+                    придав им более аккуратную форму. Украсьте блюдо измельчённой зеленью и подавайте к столу.
+                    Приятного аппетита!</li>
+            </ul>
+        </section>
+        <section class="comments">
+        </section>
+        <section class="food">
+            <h2 class="food-headline" id="average">Завтрак средней сложности</h2>
+            <p class="food-desc">Для приготовления ленивой пиццы не нужно месить тесто и разогревать духовку. 
+                Вам понадобится совсем немного времени, чтобы приготовить быструю и вкусную пиццу на сковороде.</p>
+            <span class="food-need">Какие продукты понадобятся: </span>
+            <ul class="food_list">
+                <li>Сметана - <span class="food_list-item-amount">2 ст. ложки</span></li>
+                <li>Майонез - <span class="food_list-item-amount">2 ст. ложки</span></li>
+                <li>Яйцо - <span class="food_list-item-amount">1 штука</span></li>
+                <li>Мука - <span class="food_list-item-amount">4 ст. ложки</span></li>
+                <li>Колбаса копченая - <span class="food_list-item-amount">100 г</span></li>
+                <li>Сыр твердый - <span class="food_list-item-amount">80 г</span></li>
+                <li>Помидор - <span class="food_list-item-amount">1 штука</span></li>
+                <li>Масто растительное - <span class="food_list-item-amount">1 ст. ложка</span></li>
+                <li>Соль - <span class="food_list-item-amount">по вкусу</span></li>
+                <li>Перец черный молотый - <span class="food_list-item-amount">по вкусу</span></li>
+            </ul>
+            <span class="food-how">Как приготовить: </span>
+            <ul class="food_list">
+                <li>Подготовить ингредиенты для приготовления пиццы на сковороде.</li>
+                <li>Колбасу нарезать тонкими ломтиками. Помидор нарезать тонкими дольками. Сыр натереть на тёрке.</li>
+                <li>В миску выложить сметану и майонез, вбить яйцо, посолить и поперчить. Перемешать до однородности.</li>
+                <li>Всыпать всю муку.</li>
+                <li>Венчиком замесить густое вязкое тесто без комочков.</li>
+                <li>Холодную сковороду (диаметром 20 см) смазать растительным маслом. Выложить тесто и распределить его равномерно 
+                    по дну сковороды.</li>
+                <li>На тесто выложить колбасу, затем помидор.</li>
+                <li>Присыпать сверху тёртым сыром. Поставить сковороду на средний огонь, накрыть крышкой и готовить пиццу на 
+                    сковороде 20 минут.</li>
+                <li>Сыр должен расплавиться, а тесто - подрумяниться.</li>
+                <li>Вкусная и быстрая пицца, приготовленная на сковороде, готова. Приятного аппетита!</li>
+            </ul>
+        </section>
+        <section class="food">
+            <h2 class="food-headline" id="hard">Сложный завтрак</h2>
+            <p class="food-desc">Необычный вариант панкейков из привычных продуктов - пышные оладушки-панкейки без сливочного масла. 
+                Изюминка блюда в добавлении взбитых белков, благодаря чему тесто получается воздушным, а готовые панкейки - мягкими
+                и нежными, словно суфле. Попробуйте!</p>
+            <span class="food-need">Какие продукты понадобятся: </span>
+            <ul class="food_list">
+                <li>Яйца крупные - <span class="food_list-item-amount">2 штуки</span></li>
+                <li>Мука пшеничная - <span class="food_list-item-amount">40 г.</span></li>
+                <li>Молоко - <span class="food_list-item-amount">25 г</span></li>
+                <li>Сахар - <span class="food_list-item-amount">40 г</span></li>
+                <li>Разрыхлитель - <span class="food_list-item-amount">1/2 ч. ложки</span></li>
+                <li>Сок лимона - <span class="food_list-item-amount">1 ч. ложка</span></li>
+                <li>Масто растительное для жарки - <span class="food_list-item-amount">1 ч. ложка</span></li>
+            </ul>
+            <span class="food-how">Как приготовить: </span>
+            <ul class="food_list">
+                <li>Подготовьте ингредиенты. Смешайте пшеничную муку и разрыхлитель.</li>
+                <li>Разбейте яйца и отделите желтки от белков.</li>
+                <li>В глубкой миске соедините желтки и молоко. Частями, каждый раз перемешивая, всейте муку с разрыхлителем.</li>
+                <li>Хорошо перемешайте, чтобы не осталось комочков.</li>
+                <li>В отдельной ёмкости соедините яичные белки и лимонный сок. Взбейте смесь миксером на низкой скорости 2-3 минуты, 
+                    до получения устойчивой пены.</li>
+                <li>Небольшими порциями, в 3-4 приёма, добавьте сахар и продолжайте взбивать яичные белки до "жёстких пиков" 
+                    (ещё примерно 3-4 минуты).</li>
+                <li>Добавляя примерно по 1 ст. ложке, вмешайте взбитые белки в тесто.</li>
+                <li>Перемешивайте тесто аккуратно снизу вверх, чтобы сохранить воздушность и пышность массы.</li>
+                <li>Разогрейте антипригарную сковороду на среднем огне, смажьте растительным маслом и промокните излишки масла бумажной салфеткой.
+                    Уменьшите огонь до минимального, выложите тесто порциями по 2,5-3 ст. ложки на каждый панкейк. Влейте на 
+                    дно сковороды 1-2 ч. ложки воды (чтобы получить пар в процессе приготовления). Прикройте сковороду крышкой и 
+                    готовьте панкейки на минимальном огне примерно 5-6 минут, пока поверхность теста не станет матовой, а низ не 
+                    подрумянится.</li>
+                <li>Затем аккуратно подденьте панкейки лопаткой и переверните на другую сторону. Влейте на сковороду еще 1-2 ч. 
+                    ложки воды. Прикройте сковороду крышкой и готовьте панкейки ещё примерно 5-6 минут. Коснитесь кончиком пальца 
+                    боковой стороны панкейка: если тесто пружинит и не прилипает к пальцу - готово. Повторите процесс с оставшимся 
+                    тестом. У меня получилось 6 панкейков.</li>
+                <li>Воздушные японские панкейки готовы. Переложите их на тарелку и подавайте к столу, по желанию полив мёдом.
+                    Приятного аппетита!</li>
+            </ul>
+        </section>
+    </main>
+    <footer class="header">
+        <nav class="header-nav">
+            <ul class="footer-nav_list">
+                <li class="footer-nav_list-item">
+                    <a class="footer-nav_list-item" href="#recipes">Рецепты</a>
+                </li>
+                <li class="footer-nav_list-item">
+                    <a>Идеи</a>
+                </li>
+                <li class="footer-nav_list-item">
+                    <a>Наши продукты</a>
+                </li>
+                <li class="footer-nav_list-item">
+                    <a>Авторы</a>
+                </li>
+                <li class="footer-nav_list-item">
+                    <a>О нас</a>
+                </li>
+                <li class="footer-nav_list-item">
+                    <a>Часто задаваемые вопросы</a>
+                </li>
+            </ul>
+        </nav>
+    </footer>
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<script src="script/slick.js"></script>
+<script src="script/slider.js"></script>
+<script src="script/softscroll.js"></script>
+</body>
+</html>

@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Кулинарная книга</title>
+    <link rel="preload" href="fonts/roboto-400.woff2" as="font"> <!-- предварительная загрузка шрифта -->
+    <link rel="preload" href="fonts/roboto-500.woff2" as="font">
+    <link rel="preload" href="fonts/roboto-700.woff2" as="font">
+    <link type="image/x-icon" href="img/book.png" rel="shortcut icon">
+    <link type="Image/x-icon" href="img/book.png" rel="icon">
+    <link rel="preload" href="https://code.jquery.com/jquery-3.5.1.min.js" as="script">
+    <link href="styles/normalize.css" rel="stylesheet" type="text/css">
+    <link href="styles/styles.css" rel="stylesheet" type="text/css">
+    <link href="styles/fonts.css" rel="stylesheet" type="text/css">
+    <link href="styles/header.css" rel="stylesheet" type="text/css">
+    <link href="styles/main.css" rel="stylesheet" type="text/css">
+    <link href="styles/slider.css" rel="stylesheet" type="text/css">
+    <link href="styles/slick-theme.css" rel="stylesheet" type="text/css">
+    <link href="styles/slick.css" rel="stylesheet" type="text/css">
+    <link href="styles/footer.css" rel="stylesheet" type="text/css">
+    <link href="styles/food-list.css" rel="stylesheet" type="text/css">
+    <link href="styles/food.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <header class="header">
+        <div class="header-fixed">
+            <a href="index.html"><img class="header-fixed_logo" alt="Логотип" src="img/book.png"></a>
+            <nav class="header-nav">
+                <ul class="header-nav_list">
+                    <li class="header-nav_list-item">
+                        <a href="#about">О нас</a>
+                    </li>
+                    <li class="header-nav_list-item">
+                        <a href="#">Предложения</a>
+                    </li>
+                    <li class="header-nav_list-item">
+                        <a href="#">Контакты</a>
+                    </li>
+                </ul>
+            </nav>
+            <button class="login" type="button">Вход / Регистрация</button>
+        </div>
+    </header>
+    <main>
+        <section class="main_food">
+            <h1 class="main-header">Обеды</h1>
+            <ul class="food-list">
+                <li class="food-list_item">
+                    <a href="#simple">Простой обед</a>
+                </li>
+                <li class="food-list_item">
+                    <a href="#average">Обед средней сложности</a>
+                </li>
+                <li class="food-list_item">
+                    <a href="#hard">Сложный обед</a>
+                </li>
+            </ul>
+        </section>
+        <section class="food">
+            <h2 class="food-headline" id="simple">Простой обед</h2>
+            <p class="food-desc">Простое, но очень ароматное и вкусное блюдо для семейного обеда или ужина.</p>
+            <span class="food-need">Какие продукты понадобятся: </span>
+            <ul class="food_list">
+                <li>Свиная корейка без кости - <span class="food_list-item-amount">1 кг</span></li>
+                <li>Сало свиное свежее - <span class="food_list-item-amount">50 г</span></li>
+                <li>Масло сливочное - <span class="food_list-item-amount">50 г</span></li>
+                <li>Картофель - <span class="food_list-item-amount">1 кг</span></li>
+                <li>Перец болгарский - <span class="food_list-item-amount">1 шт</span></li>
+                <li>Морковь - <span class="food_list-item-amount">2 шт</span></li>
+                <li>Лук репчатый - <span class="food_list-item-amount">2 шт</span></li>
+                <li>Чеснок - <span class="food_list-item-amount">2 зубчика</span></li>
+                <li>Зелень петрушки свежая - <span class="food_list-item-amount">по вкусу</span></li>
+                <li>Зелень петрушки сушеная - <span class="food_list-item-amount">по вкусу</span></li>
+                <li>Специи для мяса - <span class="food_list-item-amount">по вкусу</span></li>
+                <li>Перец черный горошком - <span class="food_list-item-amount">по вкусу</span></li>
+                <li>Перец черный молотый - <span class="food_list-item-amount">по вкусу</span></li>
+                <li>Соль - <span class="food_list-item-amount">по вкусу</span></li>
+            </ul>
+            <span class="food-how">Как приготовить: </span>
+            <ul class="food_list">
+                <li>В сотейнике растопить сало, нарезанное мелкими кубиками. Добавить мясо, нарезанное небольшими кусочками. 
+                    Обжарить до румяной корочки.</li>
+                <li>Затем добавить морковь, нарезанную кружочками. Обжаривать 5 минут.</li>
+                <li>Лук, нарезанный полукольцами. Обжаривать 5 минут.</li>
+                <li>Болгарский перец, нарезанный дольками. Ещё 5 минут.</li>
+                <li>Добавить крупно нарезанный картофель, кусочек сливочного масла, 200 мл воды, специи, сушёную петрушку и соль. 
+                    Не перемешивать. Накрыть крышкой, убавить огонь и тушить на медленном огне 40 минут.</li>
+                <li>В конце приготовления добавить нарезанную свежую зелень, измельчённый чеснок. Перемешать и снять с огня.
+                    Приятного аппетита!
+                </li>
+            </ul>
+        </section>
+        <section class="food">
+            <h2 class="food-headline" id="average">Обед средней сложности</h2>
+            <p class="food-desc">Рецепт очень вкусного блюда на обед - лагман с сочным куриным филе. Лагман с курицей покорит сердце
+                любого мужчины. Съедая порцию этого вкусного блюда, любой захочет добавки, поэтому готовьте сразу несколько порций!</p>
+            <span class="food-need">Какие продукты понадобятся: </span>
+            <ul class="food_list">
+                <li>Лапша - <span class="food_list-item-amount">60 г</span></li>
+                <li>Филе куриное - <span class="food_list-item-amount">300 г</span></li>
+                <li>Помидоры - <span class="food_list-item-amount">2 шт</span></li>
+                <li>Перец болгарский - <span class="food_list-item-amount">1 шт</span></li>
+                <li>Морковь - <span class="food_list-item-amount">2 шт</span></li>
+                <li>Лук репчатый - <span class="food_list-item-amount">1-2 шт</span></li>
+                <li>Томатная паста - <span class="food_list-item-amount">2 ст. ложки</span></li>
+                <li>Сахар - <span class="food_list-item-amount">1 ст. ложка</span></li>
+                <li>Соль - <span class="food_list-item-amount">3 щепотки</span></li>
+                <li>Перец черный молотый - <span class="food_list-item-amount">3 щепотки</span></li>
+                <li>Масло растительное - <span class="food_list-item-amount">40 мл</span></li>
+            </ul>
+            <span class="food-how">Как приготовить: </span>
+            <ul class="food_list">
+                <li>Подготовьте все необходимые ингредиенты. Куриное филе промойте, обсушите, удалите пленки и жилы.</li>
+                <li>Нарежьте куриное филе средними кусочками. Влейте в казан или на сковороду с высокими бортиками растительное 
+                    масло и разогрейте его. Добавьте туда куриное филе и обжаривайте около 7-10 минут до румяной корочки.</li>
+                <li>Морковь и лук очистите, вымойте и нарежьте кубиками. Добавьте к курице и обжаривайте еще 5-7 минут до мягкости 
+                    овощей.</li>
+                <li>Помидоры и болгарский перец вымойте, удалите из перца семена. Нарежьте овощи средними кубиками и добавьте в 
+                    сковороду с курицей. Добавьте сахар и 2 щепотки соли. Перемешайте и тушите куриное филе с овощами около 15 минут
+                     на среднем огне.</li>
+                <li>В это время вскипятите воду в кастрюле, всыпьте щепотку соли и отварите лапшу до готовности, примерно 7-10 минут.
+                     Затем откиньте лапшу на дуршлаг и верните обратно в кастрюлю.</li>
+                <li>Добавьте к курице с овощами томатную пасту, молотый черный перец. Влейте 0,5 стакана воды, аккуратно все 
+                    перемешайте. Тушите ровно 5 минут. (При желании можно добавить промытую и измельченную зелень.)</li>
+                <li>Выложите в глубокие тарелки отварную лапшу, на нее - подливу с курицей и овощами. Украсьте лагман с курицей 
+                    зеленью и сразу же подавайте к столу! Приятного аппетита!</li>
+            </ul>
+        </section>
+        <section class="food">
+            <h2 class="food-headline" id="hard">Сложный обед</h2>
+            <p class="food-desc">Макароны с томатным соусом - довольно популярное блюдо, которое подают в качестве гарнира. А как 
+                насчёт того, чтобы приготовить и гарнир из макарон, и мясное блюдо одновременно? Обжаренные куриные фрикадельки 
+                отлично сочетаются с макаронами и томатным соусом. Прекрасное решение для семейного обеда.</p>
+            <span class="food-need">Какие продукты понадобятся: </span>
+            <ul class="food_list">
+                <li>Макароны - <span class="food_list-item-amount">200 г</span></li>
+                <li>Фарш куриный - <span class="food_list-item-amount">250 г</span></li>
+                <li>Лук репчатый - <span class="food_list-item-amount">2 шт</span></li>
+                <li>Чеснок - <span class="food_list-item-amount">4 зубчика</span></li>
+                <li>Яйцо (желток) - <span class="food_list-item-amount">1 шт</span></li>
+                <li>Томатная паста - <span class="food_list-item-amount">2 ч. ложки</span></li>
+                <li>Соль - <span class="food_list-item-amount">по вкусу</span></li>
+                <li>Перец черный молотый - <span class="food_list-item-amount">по вкусу</span></li>
+                <li>Масто растительное для жарки - <span class="food_list-item-amount">3 ст. ложки</span></li>
+            </ul>
+            <span class="food-how">Как приготовить: </span>
+            <ul class="food_list">
+                <li>Подготавливаем необходимые продукты.</li>
+                <li>Лук и чеснок очищаем. Одну луковицу и два забчика чеснока натираем на мелкой тёрке и добавляем в фарш.</li>
+                <li>Всыпаем соль и чёрный молотый перец, добавляем желток яйца и перемешиваем.</li>
+                <li>Формируем небольшие фрикадельки. У меня получилось 18 штук. Разогреваем в сковороде растительное масло, 
+                    выкладываем туда фрикадельки и обжариваем около 7 минут с одной стороны, до румяной корочки.</li>
+                <li>В это время ставим варить макароны, чтобы они были готовы к моменту готовности фрикаделек и соуса. Наливаем в 
+                    кастрюлю воду, подсаливаем и доводим до кипения. Опускаем макароны в кипящую воду и отвариваем до готовности, 
+                    согласно инструкции на упаковке. Во время варки макароны периодически перемешиваем, чтобы они не слиплись.</li>
+                <li>Фрикадельки в сковороде переворачиваем и обжариваем с другой стороны примерно 3-4 минуты, до румяности.</li>
+                <li>Вторую луковицу нарезаем небольшими кубиками.</li>
+                <li>Готовые фрикадельки перекладываем на тарелку. В масло, в котором обжаривались фрикадельки, отправляем нарезанный
+                    лук. Обжариваем лук до мягкости, примерно 2-3 минуты.</li>
+                <li>Натираем на мелкой тёрке оставшиеся 2 зубчика чеснока. Добавляем в сковороду к луку томатную пасту и 
+                    измельчённый чеснок.</li>
+                <li>Добавляем 3 ст. ложки воды, в которой варились макароны, перемешиваем и тушим соус около 1 минуты.</li>
+                <li>Готовые макароны откидываем на дуршлаг и сразу же перекладываем в сковороду с соусом.</li>
+                <li>Выкладываем к макаронам фрикадельки.</li>
+                <li>Перемешиваем всё в сковороде и томим на небольшом огне ещё 1-2 минуты, чтобы макароны с фрикадельками полностью 
+                    покрылись соусом.</li>
+                <li>Перед подачей посыпаем макароны с фрикадельками в томатном соусе листиками свежей петрушки. Приятного аппетита!</li>
+            </ul>
+        </section>
+    </main>
+    <footer class="header">
+        <nav class="header-nav">
+            <ul class="footer-nav_list">
+                <li class="footer-nav_list-item">
+                    <a class="footer-nav_list-item" href="#recipes">Рецепты</a>
+                </li>
+                <li class="footer-nav_list-item">
+                    <a>Идеи</a>
+                </li>
+                <li class="footer-nav_list-item">
+                    <a>Наши продукты</a>
+                </li>
+                <li class="footer-nav_list-item">
+                    <a>Авторы</a>
+                </li>
+                <li class="footer-nav_list-item">
+                    <a>О нас</a>
+                </li>
+                <li class="footer-nav_list-item">
+                    <a>Часто задаваемые вопросы</a>
+                </li>
+            </ul>
+        </nav>
+    </footer>
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<script src="script/slick.js"></script>
+<script src="script/slider.js"></script>
+<script src="script/softscroll.js"></script>
+</body>
+</html>

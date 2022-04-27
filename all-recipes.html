@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Кулинарная книга</title>
+    <link rel="preload" href="fonts/roboto-400.woff2" as="font"> <!-- предварительная загрузка шрифта -->
+    <link rel="preload" href="fonts/roboto-500.woff2" as="font">
+    <link rel="preload" href="fonts/roboto-700.woff2" as="font">
+    <link type="image/x-icon" href="img/book.png" rel="shortcut icon">
+    <link type="Image/x-icon" href="img/book.png" rel="icon">
+    <link rel="preload" href="https://code.jquery.com/jquery-3.5.1.min.js" as="script">
+    <link href="styles/normalize.css" rel="stylesheet" type="text/css">
+    <link href="styles/styles.css" rel="stylesheet" type="text/css">
+    <link href="styles/fonts.css" rel="stylesheet" type="text/css">
+    <link href="styles/header.css" rel="stylesheet" type="text/css">
+    <link href="styles/main.css" rel="stylesheet" type="text/css">
+    <link href="styles/slider.css" rel="stylesheet" type="text/css">
+    <link href="styles/slick-theme.css" rel="stylesheet" type="text/css">
+    <link href="styles/slick.css" rel="stylesheet" type="text/css">
+    <link href="styles/footer.css" rel="stylesheet" type="text/css">
+    <link href="styles/food-list.css" rel="stylesheet" type="text/css">
+    <link href="styles/food.css" rel="stylesheet" type="text/css">
+    <link href="styles/form.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <header class="header">
+        <div class="header-fixed">
+            <a href="index.html"><img class="header-fixed_logo" alt="Логотип" src="img/book.png"></a>
+            <nav class="header-nav">
+                <form class="WB-form" id="form" method="get" action="index.html">
+                    <input type="search" name="search" placeholder="Поиск по сайту" class="WB-input" id="input" aria-label="">
+                    <button aria-label="Поиск" type="submit" class="WB-button"></button>
+                </form>
+            </nav>
+            <button class="login" type="button">Вход / Регистрация</button>
+        </div>
+    </header>
+    <main>
+        <section class="main_food">
+            <h1 class="main-header">Все рецепты</h1>
+            <ul class="food-list">
+                <li class="food-list_item">
+                    <a href="breakfast.html#simple">Простой завтрак</a>
+                </li>
+                <li class="food-list_item">
+                    <a href="breakfast.html#average">Завтрак средней сложности</a>
+                </li>
+                <li class="food-list_item">
+                    <a href="breakfast.html#hard">Сложный завтрак</a>
+                </li>
+            </ul>
+            <ul class="food-list">
+                <li class="food-list_item">
+                    <a href="desert.html#simple">Простой десерт</a>
+                </li>
+                <li class="food-list_item">
+                    <a href="desert.html#average">Десерт средней сложности</a>
+                </li>
+                <li class="food-list_item">
+                    <a href="desert.html#hard">Сложный десерт</a>
+                </li>
+            </ul>
+            <ul class="food-list">
+                <li class="food-list_item">
+                    <a href="dinner.html#simple">Простой ужин</a>
+                </li>
+                <li class="food-list_item">
+                    <a href="dinner.html#average">Ужин средней сложности</a>
+                </li>
+                <li class="food-list_item">
+                    <a href="dinner.html#hard">Сложный ужин</a>
+                </li>
+            </ul>
+            <ul class="food-list">
+                <li class="food-list_item">
+                    <a href="drink.html#simple">Простой напиток</a>
+                </li>
+                <li class="food-list_item">
+                    <a href="drink.html#average">Напиток средней сложности</a>
+                </li>
+                <li class="food-list_item">
+                    <a href="drink.html#hard">Сложный напиток</a>
+                </li>
+            </ul>
+            <ul class="food-list">
+                <li class="food-list_item">
+                    <a href="lunch.html#simple">Простой обед</a>
+                </li>
+                <li class="food-list_item">
+                    <a href="lunch.html#average">Обед средней сложности</a>
+                </li>
+                <li class="food-list_item">
+                    <a href="lunch.html#hard">Сложный обед</a>
+                </li>
+            </ul>
+            <ul class="food-list">
+                <li class="food-list_item">
+                    <a href="salad.html#simple">Простой салат</a>
+                </li>
+                <li class="food-list_item">
+                    <a href="salad.html#average">Салат средней сложности</a>
+                </li>
+                <li class="food-list_item">
+                    <a href="salad.html#hard">Сложный салат</a>
+                </li>
+            </ul>
+        </section>
+        <section class="food">
+        </section>
+    </main>
+    <footer class="header">
+        <nav class="header-nav">
+            <ul class="footer-nav_list">
+                <li class="footer-nav_list-item">
+                    <a class="footer-nav_list-item" href="#recipes">Рецепты</a>
+                </li>
+                <li class="footer-nav_list-item">
+                    <a>Идеи</a>
+                </li>
+                <li class="footer-nav_list-item">
+                    <a>Наши продукты</a>
+                </li>
+                <li class="footer-nav_list-item">
+                    <a>Авторы</a>
+                </li>
+                <li class="footer-nav_list-item">
+                    <a>О нас</a>
+                </li>
+                <li class="footer-nav_list-item">
+                    <a>Часто задаваемые вопросы</a>
+                </li>
+            </ul>
+        </nav>
+    </footer>
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<script src="script/slick.js"></script>
+<script src="script/slider.js"></script>
+<script src="script/softscroll.js"></script>
+<script src="script/search.js"></script>
+</body>
+</html>
