@@ -109,3 +109,22 @@ button {
 .menu-btn {
     display: none;
 }
+
+.tel {
+    display: block;
+    margin: 0 37%;
+}
+
+.contacts {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+}
+
+.about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
